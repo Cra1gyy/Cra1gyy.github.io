@@ -6,8 +6,8 @@
 
 .heading {
     text-align: center;
-    background-color: bisque;
-    border:3px solid grey;
+    background-color: white;
+    border-bottom:3px dotted grey;
 }
 
 .heading h1 {
@@ -27,7 +27,7 @@
     margin: 30px 20px 10px;
     font-size: 20px;
     border: 2px solid grey;
-    background-color: bisque;
+    background-color: whitesmoke;
     padding: 3px 5px;
     border-radius: 10px;
     box-shadow: 1px 1px grey;
@@ -49,9 +49,8 @@
 }
 
 .main {
-    background-color: bisque;
+    background-color: white;
     text-align: center;
-    border:3px solid grey;
     margin-top: 30px;
     padding-bottom: 20px;
     width: 400px;
@@ -63,6 +62,7 @@
 }
 
 .form1 {
+    background-color: bisque;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@
     width: 200px;
     padding: 10px 10px;
     border-radius: 20px;
-    box-shadow: 2px 2px grey;
+    box-shadow: 2px 3px grey;
 }
 
 .form1 p {
@@ -109,29 +109,32 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer {
+.about {
+    margin: auto;
+}
+
+.about_title {
     text-align: center;
+    text-decoration: underline;
     margin-top: 100px;
-    border-top: 3px dotted grey;
+    margin-bottom: 30px;
 }
 
-.footer ul {
-    display: inline-block;
-    list-style-type: none;
-    justify-content: center;
-    margin: 0px auto;
+.about_content {
+    margin: auto;
+    text-align: center;
+    width: 500px;
 }
 
-.footer li {
-    float: left;
-    margin: 20px 50px;
-    border: 2px solid grey;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: bisque;
+.about_content p {
+    font-size: 18px;
 }
 
-.footer a {
-    color: black;
-    text-decoration: none;
+.about_read_more {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.about_read_more:hover {
+    cursor: pointer;
 }

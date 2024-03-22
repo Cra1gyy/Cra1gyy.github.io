@@ -26,3 +26,16 @@ let center_func = () => {
 }
 
 center_button.addEventListener('click', center_func);
+
+
+
+let readMoreButton = document.getElementById('read_more_button');
+let addParagraph = document.getElementsById('about_content_p');
+
+
+let aboutFunc = () => {
+    readMoreButton.innerHTML = 'Read Less';
+}
+
+
+readMoreButton.addEventListener('click', aboutFunc);
